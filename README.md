@@ -63,3 +63,30 @@ Um **banco de dados relacional** é um sistema de gerenciamento de banco de dado
 
 > [!IMPORTANT]
 > No geral, um banco de dados relacional oferece uma estrutura flexível e poderosa para armazenar e gerenciar dados, permitindo que os usuários representem relações complexas entre os dados e executem consultas sofisticadas para recuperar informações conforme necessário.
+
+## Qual a diferença entre Chave Primária (Primary Key) e Chave Estrangeira (Foreign Key)? 
+
+> [!TIP]
+> Pergunta de entrevista! Uma vez me perguntaram justamente essa pergunta em uma entrevista. É um dos assuntos mais importantes de Banco de Dados. Portanto, é importante lembrar e saber explicar bem a diferença entre esses dois conceitos. 
+
+>*Uma chave primária e uma chave estrangeira são conceitos fundamentais em bancos de dados relacionais, como aqueles baseados em SQL (Structured Query Language). Ambas desempenham papéis essenciais na definição da estrutura de um banco de dados e na garantia da integridade dos dados. Aqui está a diferença entre elas:*
+
+* **Chave Primária (Primary Key)**:
+
+Uma chave primária é um campo (ou conjunto de campos) em uma tabela de banco de dados que identifica de forma exclusiva cada registro na tabela.
+Uma tabela pode ter apenas uma chave primária.
+A chave primária não pode ter valores nulos (NULL) e deve ser única para cada registro.
+A chave primária é usada como um identificador exclusivo e é frequentemente usada para indexação, o que melhora o desempenho em operações de consulta.
+Por exemplo, em uma tabela de "clientes", o número de identificação do cliente pode ser escolhido como chave primária, garantindo que cada cliente tenha um identificador único.
+
+* **Chave Estrangeira (Foreign Key)**:
+
+Uma chave estrangeira é um campo em uma tabela que está vinculado a chave primária de outra tabela.
+A chave estrangeira estabelece uma relação entre duas tabelas, permitindo que os dados relacionados sejam conectados.
+Enquanto uma chave primária identifica de forma exclusiva registros em sua própria tabela, uma chave estrangeira permite que registros em uma tabela estejam relacionados a registros em outra tabela.
+A chave estrangeira não precisa ser única, e pode haver várias ocorrências do mesmo valor na tabela.
+Por exemplo, em uma tabela de "pedidos", pode haver uma chave estrangeira que faz referência à chave primária da tabela "clientes", estabelecendo uma relação entre os clientes que fazem pedidos e os próprios pedidos.
+
+
+Em resumo, enquanto a chave primária identifica de forma exclusiva os registros em uma tabela, a chave estrangeira estabelece relações entre registros em diferentes tabelas. Esses conceitos são essenciais para a modelagem de dados em bancos de dados relacionais e para garantir a integridade dos dados.
+
