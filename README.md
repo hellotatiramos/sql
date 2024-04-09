@@ -1,6 +1,10 @@
-# Banco de Dados SQL
 
-![Sql_data_base_with_logo](https://github.com/hellotatiramos/sql/assets/158481113/e6e14496-a22f-41a6-80a2-467e5a51968f)
+
+<div align="center">
+<img src="https://github.com/hellotatiramos/sql/assets/158481113/e6e14496-a22f-41a6-80a2-467e5a51968f" width="300px" />
+</div>
+
+
 
 ## O que é SQL? 
 >*SQL (Structured Query Language) é uma linguagem de programação utilizada para interagir com bancos de dados. Ela permite que você faça coisas como criar, modificar e consultar informações em um banco de dados. Pense nela como uma linguagem que você usa para falar com o banco de dados e pedir a ele que faça coisas por você, como encontrar dados específicos, adicionar novos dados ou alterar dados existentes. É uma ferramenta fundamental para trabalhar com dados de forma eficiente e organizada.*
