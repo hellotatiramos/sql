@@ -88,5 +88,5 @@ A chave estrangeira não precisa ser única, e pode haver várias ocorrências d
 Por exemplo, em uma tabela de "pedidos", pode haver uma chave estrangeira que faz referência à chave primária da tabela "clientes", estabelecendo uma relação entre os clientes que fazem pedidos e os próprios pedidos.
 
 
-Em resumo, enquanto a chave primária identifica de forma exclusiva os registros em uma tabela, a chave estrangeira estabelece relações entre registros em diferentes tabelas. Esses conceitos são essenciais para a modelagem de dados em bancos de dados relacionais e para garantir a integridade dos dados.
+`Em resumo, enquanto a chave primária identifica de forma exclusiva os registros em uma tabela, a chave estrangeira estabelece relações entre registros em diferentes tabelas. Esses conceitos são essenciais para a modelagem de dados em bancos de dados relacionais e para garantir a integridade dos dados.`
 
