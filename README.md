@@ -67,7 +67,7 @@ Um **banco de dados relacional** é um sistema de gerenciamento de banco de dado
 ## Qual a diferença entre Chave Primária (Primary Key) e Chave Estrangeira (Foreign Key)? 
 
 > [!TIP]
-> Pergunta de entrevista! Uma vez me perguntaram justamente essa pergunta em uma entrevista. É um dos assuntos mais importantes de Banco de Dados. Portanto, é importante lembrar e saber explicar bem a diferença entre esses dois conceitos. 
+> Pergunta de entrevista! Uma vez me fieram justamente essa pergunta em uma entrevista. É um dos assuntos mais importantes de Banco de Dados. Portanto, é importante lembrar e saber explicar bem a diferença entre esses dois conceitos. 
 
 >*Uma chave primária e uma chave estrangeira são conceitos fundamentais em bancos de dados relacionais, como aqueles baseados em SQL (Structured Query Language). Ambas desempenham papéis essenciais na definição da estrutura de um banco de dados e na garantia da integridade dos dados. Aqui está a diferença entre elas:*
 
